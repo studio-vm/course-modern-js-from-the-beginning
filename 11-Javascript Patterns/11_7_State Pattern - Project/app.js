@@ -60,10 +60,10 @@ page.init();
 
 //^ UI vars
 const homeEl = document.getElementById('home'),
-  aboutEl = document.getElementById('about'),
-  contactEl = document.getElementById('contact');
+const aboutEl = document.getElementById('about'),
+const contactEl = document.getElementById('contact');
 
-  //^ Event listeners
+//^ Event listeners
 homeEl.addEventListener('click', (e) => {
   page.change(new homeState);
   e.preventDefault();
